@@ -33,6 +33,8 @@ public class RegisterClient {
                                         .counting()));
     }
 
+    public void addClient(Client client){this.clientList = clientList;}
+
     public List<Client> getClientList() {
         return clientList;
     }
